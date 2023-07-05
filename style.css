@@ -32,23 +32,28 @@ ul{
     list-style: none;
     display: flex;
 }
-.nav-left, .nav-right{
+.nav-left{
     display: flex;
     align-items: center;
 }
 .search-box{
     display: flex;
-    background: white;
     border-radius: 20px;
     width: 280px;
+    justify-content: space-between;
+}
+.search-box input{
+    width: 200px;
+    border-radius: 20px;
+    border: none;
 }
 .search-icon{
     font-size: 30px;
     margin: 2px 5px;
-    color: #1876f2;
+    color: #efefef;
 }
 .user-icon{
-    height: 30px;
+    height: 35px;
     border-radius: 50%;
     cursor: pointer;
 }
