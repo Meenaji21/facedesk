@@ -64,5 +64,42 @@ nav {
   border-radius: 50%;
   cursor: pointer;
 }
+.online{
+  position: relative;
+}
+.online::after{
+  content: '';
+  width: 7px;
+  height: 7px;
+  border: 2px soild #fff;
+  border-radius: 50%;
+  background: #41db41;
+  position: absolute;
+}
 /* ///////////////navbar css end/////////// */
 
+.container{
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 5%;
+}
+.leftbar{
+  background: #cdcdcd;
+  flex-basis: 25%;
+  position: sticky;
+  top: 70px;
+  align-self: flex-start;
+  height: 100vh;
+}
+.main-content{
+  flex-basis: 47%;
+  
+}
+.rightbar{
+  background: #cdcdcd;
+  flex-basis: 25%;
+  position: sticky;
+  top: 70px;
+  align-self: flex-start;
+  height: 100vh;
+}
