@@ -14,7 +14,10 @@ nav {
   justify-content: space-between;
   background: #1876f2;
   padding: 5px 2%;
-  border: 2px solid red;
+  /* border: 2px solid red; */
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 .logo {
   width: 150px;
@@ -83,23 +86,43 @@ nav {
   justify-content: space-between;
   padding: 13px 5%;
 }
-.leftbar{
-  background: #cdcdcd;
+.leftbar, .rightbar{
+  /* background: #cdcdcd; */
   flex-basis: 25%;
   position: sticky;
   top: 70px;
   align-self: flex-start;
-  height: 100vh;
+  /* height: 100vh; */
 }
 .main-content{
   flex-basis: 47%;
   
 }
-.rightbar{
+/* .rightbar{
   background: #cdcdcd;
   flex-basis: 25%;
   position: sticky;
   top: 70px;
   align-self: flex-start;
   height: 100vh;
+} */
+.imp-links a{
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  color: #625626;
+  margin-bottom: 30px;
+  width: fit-content;
+  font-size: 1.2rem;
+}
+.imp-links a:last-child{
+  color: #1876f2;
+}
+.imp-links-icon{
+  font-size: 1.8rem;
+  width: 25px;
+  margin-right: 14px;
+}
+.imp-links{
+  border-bottom: 1px solid #ccc;
 }
