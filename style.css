@@ -131,3 +131,18 @@ nav {
   font-weight: 500;
   font-size: 1.2rem;
 }
+.bar-title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 18px; 
+}
+.bar-title h4{
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+.bar-title a{
+  text-decoration: none;
+  color: #1876f2;
+  font-size: 1rem;
+}
