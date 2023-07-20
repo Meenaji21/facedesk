@@ -173,7 +173,7 @@ nav {
   font-size: .9rem;
 }
 .event a{
-  font-size: 1rem;
+  font-size: .9rem;
   text-decoration: none;
   color: #1876f2;
 }
@@ -207,5 +207,5 @@ nav {
 }
 .online-list .online::after{
   top: unset;
-  bottom: 0;
+  bottom: 5px;
 }
