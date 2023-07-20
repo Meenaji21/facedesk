@@ -191,7 +191,7 @@ nav {
   margin-bottom: 20px;
   border-radius: 4px;
 }
-/* .online-list{
+.online-list{
   display: flex;
   align-items: center;
   margin-bottom: 20px;
@@ -208,4 +208,4 @@ nav {
 .online-list .online::after{
   top: unset;
   bottom: 0;
-} */
+}
