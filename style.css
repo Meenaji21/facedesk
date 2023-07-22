@@ -209,3 +209,11 @@ nav {
   top: unset;
   bottom: 5px;
 }
+/* ////////////// main content css ///////////// */
+
+.story-icon {
+  font-size: 33px;
+  margin: 5px 10px;
+  color: #1876f2;
+  cursor: pointer;
+}
