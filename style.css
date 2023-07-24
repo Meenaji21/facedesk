@@ -217,3 +217,34 @@ nav {
   color: #1876f2;
   cursor: pointer;
 }
+.story-gallery{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.story{
+  flex-basis: 18%;
+  padding-top: 32%;
+  position: relative;
+  background-image: linear-gradient(transparent,rgba(0,0,0,0.5)), url(./images/story.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  
+}
+.story i{
+  position: absolute;
+  width: 45px;
+  border-radius: 50%;
+  top: 10px;
+  left: px;
+  border-radius: 5px solid #626262;
+}
+.story p{
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
+}
