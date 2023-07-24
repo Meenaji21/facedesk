@@ -227,22 +227,20 @@ nav {
 }
 .story{
   flex-basis: 18%;
-  padding-top: 32%;
+  padding-top: 30%;
   position: relative;
   background-image: linear-gradient(transparent,rgba(0,0,0,0.5)), url(./images/story.jpg);
   background-position: center;
   background-size: cover;
   border-radius: 10px;
   cursor: pointer;
-  margin-right: 5px;
+  margin: 0px 3px;
 }
 .story i{
   position: absolute;
-  width: 45px;
-  border-radius: 50%;
-  top: 10px;
-  left: px;
-  border-radius: 5px solid #626262;
+  top: unset;
+  bottom: 25px;
+  left: 25%;
 }
 .story p{
   position: absolute;
